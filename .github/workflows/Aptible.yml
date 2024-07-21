@@ -20,3 +20,5 @@ jobs:
         environment: ckoneee
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
+        telegram_token: ${{secrets.telegram_token}}
+        user_ids: ${{secrets.user_ids}}
